@@ -1,0 +1,89 @@
+/* changing material ui elements properties */
+
+.MuiOutlinedInput-root {
+  border-radius: 0px !important;
+}
+
+.MuiInputBase-input {
+  border: 1px solid #707070 !important;
+}
+.MuiOutlinedInput-input {
+  padding: 14px 12px !important;
+  font-size: 14px !important;
+}
+
+.sign-up-parent {
+  max-width: 753px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 0 46px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+@media (max-width: 480px){
+  .heading {
+    font-size: 30px;
+    
+  }
+  .sign-up-parent {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+  
+  
+}
+    
+.sign-up-content {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.circle-num {
+  background-color: #8d46e9;
+  min-width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 16px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.sign-up-title {
+  line-height: 26px;
+  font-size: 22px;
+  color: #8d46e9;
+}
+
+.sign-up-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.sign-up-description a {
+  color: #8d46e9;
+  text-decoration: underline !important;
+}
+.grid-item {
+  width: 100%;
+}
+.submit-btn {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  background: #efac47 !important;
+  color: #000 !important;
+  border: 0px !important;
+  transition: all 0.3s !important;
+}
+.submit-btn:hover {
+  background: #88fcf0 !important;
+}

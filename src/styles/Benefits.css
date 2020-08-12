@@ -1,0 +1,35 @@
+.benefits {
+    max-width: 636px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 108px;
+}
+.benefit-column {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 27px;
+        margin-bottom: 30px;
+}
+.heading-color{
+    color: #8d46e9;
+}
+.column-cell {
+    max-width: 281px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width: 480px){
+    .benefits {
+        margin-top: 0px;
+    }
+.column-cell {
+    font-size: 15px;
+    max-width: 154px;
+
+}
+}
+.divider {
+    margin: 15px 0;
+    border-bottom: 1px solid #bfbfbf;
+}
